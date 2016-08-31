@@ -109,13 +109,10 @@ B2B | 规模:200+（人）
 ```
 
 
-系统环境：MAC OS；
-
-开发工具：sublime；
-
-框架及组件：angular、react、redux、amazeui、bootstrap、ant.design、babel等；
-
-开发语言：JavaScript、es6、html、css；
+##### 系统环境：MAC OS；
+##### 开发工具：sublime；
+##### 框架及组件：angular、react、redux、amazeui、bootstrap、ant.design、babel等；
+##### 开发语言：JavaScript、es6、html、css；
 
 
 ###资深前端 at fuyoukache.com
@@ -165,13 +162,10 @@ fuyoukache | 研发部 | 资深前端、Tech Lead
 - 一起维护fuyoukache.com、微信经纪人web app；
 
 
-系统环境：Ubuntu、MAC OS、Nginx；
-
-开发工具：sublime、webstorm、sourcetree；
-
-框架使用：amazui、bootstrap等；
-
-开发语言：JavaScript、html、css；
+##### 系统环境：Ubuntu、MAC OS、Nginx；
+##### 开发工具：sublime、webstorm、sourcetree；
+##### 框架使用：amazui、bootstrap等；
+##### 开发语言：JavaScript、html、css；
 
 ### JavaScript Developer And Web TL at kaikeba
 2013 年 9 月 – 2015 年 4 月 (1 年 8 个月)中国 北京市区
@@ -195,15 +189,11 @@ kaikeba | 研发部 | 数据平台高级工程师（前端架构、数据可视�
 * Jupiter管理系统：此项目参与部分模块（用户权限、用户角色、场景配置、日志、模型管理等模块）的业务逻辑的编写及维护，此框架中用到的tree、grid、ComboBox均适用ligerui插件；
 
 
-系统环境：Ubuntu、MAC OS、Nginx；
-
-开发工具：webstorm、sublime、aptana、sourcetree；
-
-框架使用：backbone、bootstrap、echarts；
-
-开发语言：JavaScript、coffeescript、PHP、html、css；
-
-日常工作：封装框架，接口、模型定义，业务逻辑实现，数据整理订阅；
+##### 系统环境：Ubuntu、MAC OS、Nginx；
+##### 开发工具：webstorm、sublime、aptana、sourcetree；
+##### 框架使用：backbone、bootstrap、echarts；
+##### 开发语言：JavaScript、coffeescript、PHP、html、css；
+##### 日常工作：封装框架，接口、模型定义，业务逻辑实现，数据整理订阅；
 
 ### javascript工程师 at 易视腾
 2012 年 7 月 – 2013 年 9 月 (1 年 3 个月)中国 北京市区
@@ -225,15 +215,11 @@ kaikeba | 研发部 | 数据平台高级工程师（前端架构、数据可视�
 
 * 不同平台的版本整合：CCBox、央视CNTV（此盒子应用专区增加android应用的安装、卸载、排序、运行等功能）、三星SmartTV（此版chrome浏览器webkit核心不支持CSS3效果，其中引入jQuery库）、三零凯天；
 
-系统环境：Linux、Apache、php、mysql；
-
-开发工具：Aptana、SSH（Secure Shell）、AndroidSDK；
-
-框架使用：Team内部框架；
-
-开发语言：JavaScript；
-
-日常工作：框架开发，接口、模型定义，控制业务逻辑实现，不同盒子的终端移植，BUG修复
+##### 系统环境：Linux、Apache、php、mysql；
+##### 开发工具：Aptana、SSH（Secure Shell）、AndroidSDK；
+##### 框架使用：Team内部框架；
+##### 开发语言：JavaScript；
+##### 日常工作：框架开发，接口、模型定义，控制业务逻辑实现，不同盒子的终端移植，BUG修复
 
 
 ### PHP高级工程师 at 国富安
@@ -256,220 +242,10 @@ kaikeba | 研发部 | 数据平台高级工程师（前端架构、数据可视�
 * vPass虚拟化云平台接入：参与管理端WebUI开发（php+mysql+socket）、客户端WebUI开发（php+mysql）；
 
 
-系统环境：Linux、Apache、Nginx、php、mysql；
-
-开发工具：EclipsePHP Studio、Dreamweaver CS3、SSH（Secure Shell）、Fireworks CS4；
-
-框架使用：ThinkPHP、Smarty、Ext js、jQuery.LigerUI、jpGraph；
-
-开发语言：PHP、JavaScript/jQuery；
-
-日常工作：完成开发文档、PHP编码及业务逻辑、写软件说明文档（带项目）、出WebUI效果图、相关技术调研、攻坚等；
-
-
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-# Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-## Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-### Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-#### Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##### Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-###### Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-
-#### 标题（用底线的形式）Heading (underline)
-
-This is an H1
-=============
-
-This is an H2
--------------
-
-### 字符效果和横线等
-                
-----
-
-~~删除线~~ <s>删除线（开启识别HTML标签时）</s>
-*斜体字*      _斜体字_
-**粗体**  __粗体__
-***粗斜体*** ___粗斜体___
-
-上标：X<sub>2</sub>，下标：O<sup>2</sup>
-
-**缩写(同HTML的abbr标签)**
-
-> 即更长的单词或短语的缩写形式，前提是开启识别HTML标签时，已默认开启
-
-The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
-
-### 引用 Blockquotes
-
-> 引用文本 Blockquotes
-
-引用的行内混合 Blockquotes
-                    
-> 引用：如果想要插入空白换行`即<br />标签`，在插入处先键入两个以上的空格然后回车即可，[普通链接](http://localhost/)。
-
-### 锚点与链接 Links
-
-[普通链接](http://localhost/)
-
-[普通链接带标题](http://localhost/ "普通链接带标题")
-
-直接链接：<https://github.com>
-
-[锚点链接][anchor-id] 
-
-[anchor-id]: http://www.this-anchor-link.com/
-
-GFM a-tail link @pandao
-
-> @pandao
-
-### 多语言代码高亮 Codes
-
-#### 行内代码 Inline code
-
-执行命令：`npm install marked`
-
-#### 缩进风格
-
-即缩进四个空格，也做为实现类似`<pre>`预格式化文本(Preformatted Text)的功能。
-
-    <?php
-        echo "Hello world!";
-    ?>
-    
-预格式化文本：
-
-    | First Header  | Second Header |
-    | ------------- | ------------- |
-    | Content Cell  | Content Cell  |
-    | Content Cell  | Content Cell  |
-
-#### JS代码　
-
-```javascript
-function test(){
-    console.log("Hello world!");
-}
- 
-(function(){
-    var box = function(){
-        return box.fn.init();
-    };
-
-    box.prototype = box.fn = {
-        init : function(){
-            console.log('box.init()');
-
-			return this;
-        },
-
-		add : function(str){
-			alert("add", str);
-
-			return this;
-		},
-
-		remove : function(str){
-			alert("remove", str);
-
-			return this;
-		}
-    };
-    
-    box.fn.init.prototype = box.fn;
-    
-    window.box =box;
-})();
-
-var testBox = box();
-testBox.add("jQuery").remove("jQuery");
-```
-
-#### HTML代码 HTML codes
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <mate charest="utf-8" />
-        <title>Hello world!</title>
-    </head>
-    <body>
-        <h1>Hello world!</h1>
-    </body>
-</html>
-```
-
-### 图片 Images
-
-Image:
-
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
-
-> Follow your heart.
-
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
-
-> 图为：厦门白城沙滩
-
-图片加链接 (Image + Link)：
-
-[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
-
-> 图为：李健首张专辑《似水流年》封面
-                
-----
-
-### 列表 Lists
-
-#### 无序列表（减号）Unordered Lists (-)
-                
-- 列表一
-- 列表二
-- 列表三
-     
-#### 无序列表（星号）Unordered Lists (*)
-
-* 列表一
-* 列表二
-* 列表三
-
-#### 无序列表（加号和嵌套）Unordered Lists (+)
-                
-+ 列表一
-+ 列表二
-    + 列表二-1
-    + 列表二-2
-    + 列表二-3
-+ 列表三
-    * 列表一
-    * 列表二
-    * 列表三
-
-#### 有序列表 Ordered Lists (-)
-                
-1. 第一行
-2. 第二行
-3. 第三行
-
-#### GFM task list
-
-- [x] GFM task list 1
-- [x] GFM task list 2
-- [ ] GFM task list 3
-    - [ ] GFM task list 3-1
-    - [ ] GFM task list 3-2
-    - [ ] GFM task list 3-3
-- [ ] GFM task list 4
-    - [ ] GFM task list 4-1
-    - [ ] GFM task list 4-2
-                
-----
+##### 系统环境：Linux、Apache、Nginx、php、mysql；
+##### 开发工具：EclipsePHP Studio、Dreamweaver CS3、SSH（Secure Shell）、Fireworks CS4；
+##### 框架使用：ThinkPHP、Smarty、Ext js、jQuery.LigerUI、jpGraph；
+##### 开发语言：PHP、JavaScript/jQuery；
+##### 日常工作：完成开发文档、PHP编码及业务逻辑、写软件说明文档（带项目）、出WebUI效果图、相关技术调研、攻坚等；
 
 ### End
