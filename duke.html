@@ -1,0 +1,535 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="hibot.js"></script>
+    <style id="system" type="text/css">
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        /*font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;*/
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 16px;
+        line-height: 1.8;
+        color: #333;
+    }
+    
+    a {
+        color: #0069d6;
+    }
+    
+    a:hover {
+        color: #0050a3;
+        text-decoration: none;
+    }
+    
+    a img {
+        border: none;
+    }
+    
+    p {
+        margin-bottom: 9px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #404040;
+        line-height: 36px;
+        padding-bottom: 0.3em;
+        margin-bottom: 0.2em;
+        border-bottom: 1px solid #eee;
+    }
+    
+    h1 {
+        margin-bottom: 18px;
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1.25em;
+    }
+    
+    h4 {
+        font-size: 1em;
+    }
+    
+    h5 {
+        font-size: 14px;
+    }
+    
+    h6 {
+        font-size: 13px;
+    }
+    
+    hr {
+        margin: 0 0 19px;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    blockquote {
+        padding: 13px 13px 21px 15px;
+        margin-bottom: 18px;
+        font-family: georgia, serif;
+        font-style: italic;
+    }
+    
+    blockquote:before {
+        content: "C";
+        font-size: 40px;
+        margin-left: -10px;
+        font-family: georgia, serif;
+        color: #eee;
+    }
+    
+    blockquote p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+        margin-bottom: 0;
+        font-style: italic;
+    }
+    
+    code,
+    pre {
+        font-family: Monaco, Andale Mono, Courier New, monospace;
+    }
+    
+    code {
+        background-color: #fee9cc;
+        color: rgba(0, 0, 0, 0.75);
+        padding: 1px 3px;
+        font-size: 12px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    
+    pre {
+        display: block;
+        padding: 14px;
+        margin: 0 0 18px;
+        line-height: 16px;
+        font-size: 11px;
+        border: 1px solid #d9d9d9;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    
+    pre code {
+        background-color: #fff;
+        color: #737373;
+        font-size: 11px;
+        padding: 0;
+    }
+    
+    @media screen and (min-width: 768px) {
+        body {
+            width: 748px;
+            margin: 10px auto;
+        }
+    }
+    </style>
+    <style id="hibot" type="text/css">
+    .hibot {
+        padding: 0 0 0 38px;
+        margin: auto;
+        font-size: 14px;
+        font-family: monospace;
+        background: #111;
+        color: #e6e1dc;
+    }
+    
+    .hibot li {
+        margin: 0;
+        padding-left: 10px;
+        border-left: 2px solid #ccc;
+        background: #111;
+        list-style-position: outside;
+        list-style-type: decimal;
+        text-indent: 0;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+    
+    .hibot .num {
+        color: #a5c261;
+    }
+    
+    .hibot .attr {
+        color: #4093CC
+    }
+    
+    .hibot .comment {
+        color: #bc9458;
+        font-style: italic;
+    }
+    
+    .hibot .special {
+        color: #da4939;
+    }
+    
+    .hibot .statement {
+        color: #cc7833;
+    }
+    
+    .hibot .preProc {
+        color: #e6e1dc;
+    }
+    
+    .hibot .include,
+    .hibot .head {
+        color: #cc7833;
+    }
+    
+    .hibot .string {
+        color: #a5c261;
+    }
+    
+    .hibot .type,
+    .hibot .keyword,
+    .hibot .val {
+        color: #da4939;
+    }
+    </style>
+</head>
+
+<body marginheight="0">
+    <h1>resume</h1>
+    <p>duke的个人简历
+    </p>
+    <h2>个人信息</h2>
+    <p><strong>姓名</strong>：曹德权
+    </p>
+    <p><strong>性别</strong>：男
+    </p>
+    <p><strong>学校专业</strong>：<strong>西安欧亚学院</strong> 信息工程学院（软件专业）2006 – 2009
+    </p>
+    <p><strong>微信</strong>：18701471731
+    </p>
+    <h2>技术能力</h2>
+    <blockquote>
+        <p>带领团队协调推进工作，保证质量高效完成至极用户体验产品
+        </p>
+        <p>有较强的分析问题与解决问题的能力，勇于接受新的挑战、有良好的代码习惯，结构清晰，命名规范，逻辑性强，代码冗余率低、耦合低
+        </p>
+        <p>保证系统稳定、高效、健壮
+        </p>
+    </blockquote>
+    <ul>
+        <li>8年B/S开发经验，具有Team管理经验</li>
+        <li>擅长：前端架构、爬虫、监控、数据可视化</li>
+        <li>精通：javascript、php、熟悉coffeescrip</li>
+        <li>掌握：AngularJS框架、熟悉backbone、react等框架，使用npm、gulp、webpack等构建工具集</li>
+        <li>熟悉：echarts、d3、bootstrap、phantom、casper、amazeUI、ANT DESIGN等相关组件库</li>
+        <li>掌握：项目管理和协同工具SVN、Git</li>
+        <li>使用api以JSON形式进行数据交互，完成相关业务逻辑编码</li>
+    </ul>
+    <h2>工作经历</h2>
+    <h3>Front end director at gooagoo</h3>
+    <hr>
+    <p>2015 年 12 月 – 至今 (8 个月)前端技术部 gooagoo | 前端技术部 B2B | 规模:200+（人）
+    </p>
+    <h5>工作内容:</h5>
+    <ul>
+        <li>规划team季度OKR；</li>
+        <li>项目对接及推进、资源及工作协调分配；</li>
+        <li>使用gulp、webpack工具集做dev及production工程化；</li>
+        <li>使用angularjs、react做技术选型及项目构建；</li>
+        <li>推进测试及发布流程；</li>
+    </ul>
+    <h5>项目构建:</h5>
+    <ul>
+        <li><strong>移动端架构</strong>:</li>
+        <li>
+            <ul>
+                <li><strong>架构A</strong>：<code>node v6.1.0 (npm v3.8.6)  webpack ＋ amazeUI</code></li>
+            </ul>
+        </li>
+    </ul>
+    <pre><ol class="hibot"><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"构建"</span>&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//browser-sync、del-cli、director、jquery、less、less-loader、postcss-loader、style-loader、css-loader、&nbsp;autoprefixer、file-loader、image-webpack-loader、html-webpack-loader、extract-text-webpack-plugin、webpack、webpack-dev-middleware、webpack-hot-middleware、copy-webpack-plugin等</span>&nbsp;</li><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"组件"</span>&nbsp;amazeui&nbsp;v2.7&nbsp;</li><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"服务"</span>&nbsp;npm&nbsp;run&nbsp;start
+&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//{scripts&nbsp;:&nbsp;{&nbsp;start&nbsp;:&nbsp;browserSync.create().init({server:{baseDir:[],&nbsp;middleware:[]}})&nbsp;}};</span>&nbsp;</li><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"生产"</span>&nbsp;npm&nbsp;run&nbsp;build&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//{scripts&nbsp;:&nbsp;{&nbsp;build&nbsp;:&nbsp;webpack&nbsp;--config&nbsp;webpack.config.js&nbsp;}};</span>&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//webpack.config.js&nbsp;:&nbsp;module.exports&nbsp;=&nbsp;{entry&nbsp;:&nbsp;[],&nbsp;output&nbsp;:&nbsp;{},&nbsp;module&nbsp;:&nbsp;{loaders&nbsp;:&nbsp;[&nbsp;test&nbsp;:&nbsp;/rule/,&nbsp;loaders&nbsp;:&nbsp;[],&nbsp;include&nbsp;:&nbsp;[]&nbsp;]},&nbsp;plugins&nbsp;:&nbsp;[]&nbsp;}</span>&nbsp;</li><li rel="0">&nbsp;</li><li rel="0"><span class="string">''</span></li></ol><code class="lang-javascript" style="display: none;">
+    "构建"
+    //browser-sync、del-cli、director、jquery、less、less-loader、postcss-loader、style-loader、css-loader、 autoprefixer、file-loader、image-webpack-loader、html-webpack-loader、extract-text-webpack-plugin、webpack、webpack-dev-middleware、webpack-hot-middleware、copy-webpack-plugin等
+
+    "组件" amazeui v2.7
+
+    "服务" npm run start
+
+    //{scripts : { start : browserSync.create().init({server:{baseDir:[], middleware:[]}}) }};
+
+    "生产" npm run build
+    //{scripts : { build : webpack --config webpack.config.js }};
+    //webpack.config.js : module.exports = {entry : [], output : {}, module : {loaders : [ test : /rule/, loaders : [], include : [] ]}, plugins : [] }
+
+''</code></pre>
+    <ul>
+        <li>
+            <ul>
+                <li><strong>架构B</strong>：<code>node v0.12.2 (npm v2.7.4) gulp v3.9.0  gulp + amazeUI</code></li>
+            </ul>
+        </li>
+    </ul>
+    <pre><ol class="hibot"><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"构建"</span>&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//browser-sync、run-sequence、del、director、jquery、gulp、gulp-load-plugins、gulp-less、gulp-csso、&nbsp;gulp-autoprefixer、gulp-imagemin、gulp-size、gulp-htmlmin、gulp-uglify、gulp-rename、gulp-replace、watchify等</span>&nbsp;</li><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"组件"</span>&nbsp;amazeui&nbsp;v2.5&nbsp;</li><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"服务、生产"</span>&nbsp;gulp&nbsp;serve
+&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;task&nbsp;:&nbsp;gulp.task(task,&nbsp;<span class="keyword">function</span>(){<span class="keyword">return</span>&nbsp;gulp.src([]).pipe()});&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;runTask&nbsp;:&nbsp;gulp.task(runTask,&nbsp;<span class="keyword">function</span>(){&nbsp;runSequence(‘clean’,&nbsp;[taskNams],&nbsp;‘watch’)&nbsp;};&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;runServe&nbsp;:&nbsp;gulp.task(<span class="string">'serve'</span>,&nbsp;[<span class="string">'runTask'</span>],&nbsp;<span class="keyword">function</span>()&nbsp;{&nbsp;browserSync({&nbsp;server&nbsp;:&nbsp;‘dist’&nbsp;});&nbsp;gulp.watch([<span class="string">'dist/**/*'</span>],&nbsp;browserSync.reload);&nbsp;});&nbsp;</li><li rel="0">&nbsp;</li><li rel="0"><span class="string">''</span></li></ol><code class="lang-javascript" style="display: none;">
+    "构建"
+    //browser-sync、run-sequence、del、director、jquery、gulp、gulp-load-plugins、gulp-less、gulp-csso、 gulp-autoprefixer、gulp-imagemin、gulp-size、gulp-htmlmin、gulp-uglify、gulp-rename、gulp-replace、watchify等
+
+    "组件" amazeui v2.5
+
+    "服务、生产" gulp serve
+
+    task : gulp.task(task, function(){return gulp.src([]).pipe()});
+    runTask : gulp.task(runTask, function(){ runSequence(‘clean’, [taskNams], ‘watch’) };
+    runServe : gulp.task('serve', ['runTask'], function() { browserSync({ server : ‘dist’ }); gulp.watch(['dist/**/*'], browserSync.reload); });
+
+''</code></pre>
+    <ul>
+        <li><strong>PC端架构</strong>：</li>
+        <li>
+            <ul>
+                <li><strong>架构A</strong>：<code>node v0.12.2 (npm v2.7.4) gulp v3.9.0  gulp + angularjs ＋ material-design template ＋ webpack</code></li>
+            </ul>
+        </li>
+    </ul>
+    <pre><ol class="hibot"><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"构建"</span>&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//browser-sync、run-sequence、del、jquery、gulp、gulp-load-plugins、watchify等（起服务）</span>&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//css-loader、less、less-loader、style-loader、file-loader、url-loader、extract-text-webpack-plugin、webpack、webpack-dev-middleware、webpack-hot-middleware、copy-webpack-plugin等（打生产包）</span>&nbsp;</li><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"组件"</span>&nbsp;angularjs&nbsp;＋&nbsp;material-design&nbsp;template&nbsp;</li><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"服务"</span>&nbsp;gulp&nbsp;serve&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;gulp.task(<span class="string">'serve'</span>,&nbsp;[<span class="string">'taskNames'</span>],&nbsp;()&nbsp;=&gt;&nbsp;{&nbsp;</li><li rel="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;browserSync({&nbsp;</li><li rel="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;notify:&nbsp;<span class="keyword">false</span>,&nbsp;</li><li rel="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;server:&nbsp;[<span class="string">'angularjs'</span>],&nbsp;</li><li rel="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;port:&nbsp;<span class="num">3000</span>&nbsp;</li><li rel="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});&nbsp;</li><li rel="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gulp.watch([<span class="string">'angularjs/*'</span>],&nbsp;browserSync.reload);&nbsp;</li><li rel="1">&nbsp;&nbsp;&nbsp;&nbsp;});&nbsp;</li><li rel="0">&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"生产"</span>&nbsp;npm&nbsp;run&nbsp;build&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//{scripts&nbsp;:&nbsp;{&nbsp;build&nbsp;:&nbsp;webpack&nbsp;--config&nbsp;webpack.config.js&nbsp;}};</span>&nbsp;</li><li rel="0">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//webpack.config.js&nbsp;:&nbsp;module.exports&nbsp;=&nbsp;{entry&nbsp;:&nbsp;[],&nbsp;output&nbsp;:&nbsp;{},&nbsp;module&nbsp;:&nbsp;{loaders&nbsp;:&nbsp;[&nbsp;test&nbsp;:&nbsp;/rule/,&nbsp;loaders&nbsp;:&nbsp;[],&nbsp;include&nbsp;:&nbsp;[]&nbsp;]},&nbsp;plugins&nbsp;:&nbsp;[]&nbsp;}</span>&nbsp;</li><li rel="0">&nbsp;</li><li rel="0"><span class="string">''</span></li></ol><code class="lang-javascript" style="display: none;">
+    "构建"
+    //browser-sync、run-sequence、del、jquery、gulp、gulp-load-plugins、watchify等（起服务）
+    //css-loader、less、less-loader、style-loader、file-loader、url-loader、extract-text-webpack-plugin、webpack、webpack-dev-middleware、webpack-hot-middleware、copy-webpack-plugin等（打生产包）
+
+    "组件" angularjs ＋ material-design template
+
+    "服务" gulp serve
+    gulp.task('serve', ['taskNames'], () =&gt; {
+        browserSync({
+            notify: false,
+            server: ['angularjs'],
+            port: 3000
+        });
+        gulp.watch(['angularjs/*'], browserSync.reload);
+    });
+
+    "生产" npm run build
+    //{scripts : { build : webpack --config webpack.config.js }};
+    //webpack.config.js : module.exports = {entry : [], output : {}, module : {loaders : [ test : /rule/, loaders : [], include : [] ]}, plugins : [] }
+
+''</code></pre>
+    <p><strong> 系统环境 </strong>：MAC OS；
+    </p>
+    <p><strong> 开发工具 </strong>：sublime；
+    </p>
+    <p><strong> 框架及组件 </strong>：angular、react、redux、amazeui、bootstrap、ant.design、babel等；
+    </p>
+    <p><strong> 开发语言</strong>：JavaScript、es6、html、css；
+    </p>
+    <p>
+        <br>
+    </p>
+    <h3>资深前端 at fuyoukache.com</h3>
+    <hr>
+    <p>2015 年 4 月 – 2015 年 12 月 (9 个月)中国 北京市区 fuyoukache | 研发部 | 资深前端、Tech Lead 物流O2O | 合资 | 规模:300+（人）
+    </p>
+    <h5>工作内容：</h5>
+    <ul>
+        <li>团队任务对接、工作协调分配；</li>
+        <li>Github管理code review；</li>
+        <li>使用gulp、web starter kit做项目构建；</li>
+        <li>系统交互、业务逻辑的完成；</li>
+        <li>生产环境的打包、发布；</li>
+    </ul>
+    <h5>个人完成项目：</h5>
+    <ul>
+        <li>
+            <p>[微信经纪人web app]</p>
+            <ul>
+                <li>开发周期：2015-04-30/2015-05-15（2w）;</li>
+                <li>运行环境：微信、WebView APP（各安卓市场可下载：福佑卡车经纪人端）；</li>
+                <li>项目构建：使用Amaze UI web starter kit版以单应用形式构建web app项目；</li>
+                <li>项目打包：使用gulp为项目做工程化编译合并压缩打包；</li>
+                <li>项目质量：首次加载&lt;550k，应用内部切换加载+-15k，确保项目稳定、健壮、高效；</li>
+            </ul>
+        </li>
+        <li>
+            <p>[fuyoukache.com]</p>
+            <ul>
+                <li>开发周期：2015-06-23/2015-07-14（3w）;</li>
+                <li>运行环境：PC为主、多端为辅；</li>
+                <li>项目构建：使用web starter kit做构建、以bower做资源管理，引入bootstrap、bootstrap-table、autoregion、daterangepicker、jquery-validation、select2、bootstrap-star-rating等组件库，使用import做资源加载、js 做兼容加载；</li>
+                <li>项目打包：使用gulp为项目做工程化合并压缩打包，replace做资源调整；</li>
+                <li>项目质量：首次加载+-2.4M，切换加载按内容资源情况轮；</li>
+            </ul>
+        </li>
+        <li>
+            <p>[微信问答 web app：<a href="http://123.56.112.151/wl/">http://123.56.112.151/wl/</a>]</p>
+            <ul>
+                <li>开发周期：2015-07-23/2015-07-25（2d）;</li>
+                <li>运行环境：微信、移动端浏览器；</li>
+                <li>项目构建：使用Amaze UI web starter kit版以单应用形式构建web app项目；</li>
+                <li>项目打包：使用gulp为项目做工程化编译合并压缩打包；</li>
+                <li>项目质量：确保项目稳定、健壮、高效；</li>
+            </ul>
+        </li>
+        <li>
+            <p>[全新途胜答题闯关游戏 web app：<a href="http://123.56.112.151/dist-tusheng/">http://123.56.112.151/dist-tusheng/</a>]</p>
+            <ul>
+                <li>[Github source：<a href="https://github.com/nvsky/game-tusheng">https://github.com/nvsky/game-tusheng</a>]</li>
+                <li>开发周期：2015-08-24/2015-09-03（11d）;</li>
+                <li>运行环境：微信、移动端浏览器；</li>
+                <li>项目构建：使用Amaze UI web starter kit版以单应用形式构建web app项目；</li>
+                <li>项目打包：使用gulp为项目做工程化编译合并压缩打包；</li>
+                <li>项目质量：确保项目稳定、健壮、高效；</li>
+            </ul>
+        </li>
+    </ul>
+    <h5>团队项目：</h5>
+    <ul>
+        <li>一起维护fuyoukache.com、微信经纪人web app；</li>
+    </ul>
+    <p><strong> 系统环境 </strong>：Ubuntu、MAC OS、Nginx；
+    </p>
+    <p><strong> 开发工具 </strong>：sublime、webstorm、sourcetree；
+    </p>
+    <p><strong> 框架使用 </strong>：amazui、bootstrap等；
+    </p>
+    <p><strong>开发语言 </strong>：JavaScript、html、css；
+    </p>
+    <p>
+        <br>
+    </p>
+    <h3>JavaScript Developer And Web TL at kaikeba</h3>
+    <hr>
+    <p>2013 年 9 月 – 2015 年 4 月 (1 年 8 个月)中国 北京市区 kaikeba | 研发部 | 数据平台高级工程师（前端架构、数据可视化） 计算机 | 合资 | 规模:200+（人）
+    </p>
+    <h5>工作内容：</h5>
+    <ul>
+        <li>开发文档、需求设计、业务逻辑文档编写；</li>
+        <li>代码编写；</li>
+        <li>封装搭建健壮、稳定、高效、响应式前端框架；</li>
+        <li>结合yeoman bower grunt工具进行项目构建及发布；</li>
+        <li>使用backbone、bootstrap进行快速迭代开发；</li>
+        <li>phantom casper对数据进行整理订阅；</li>
+    </ul>
+    <h5>个人完成项目：</h5>
+    <ul>
+        <li>
+            <p>离线MAP全球网点监控：(<a href="https://github.com/nvsky/map_off_line">https://github.com/nvsky/map_off_line</a>) 基于google地图的瓦片，通过核心算法：M坐标、屏幕坐标、经纬度坐标相互转换实现瓦片加载、zoom层级切换、拖拽、鼠标效果等；结合d3绘制地图区域界线、标注、动态连线等，监控以展现全球业务网点的事件响应；</p>
+        </li>
+        <li>
+            <p>DashBoard：此项目使用bootstrap＋echarts快速迭代开发、结合yeoman bower grunt完成自动化部署，使用php完成接口代理及用户认证；</p>
+        </li>
+    </ul>
+    <h5>团队项目：</h5>
+    <ul>
+        <li>Jupiter管理系统：此项目参与部分模块（用户权限、用户角色、场景配置、日志、模型管理等模块）的业务逻辑的编写及维护，此框架中用到的tree、grid、ComboBox均适用ligerui插件；</li>
+    </ul>
+    <p><strong> 系统环境 </strong>：Ubuntu、MAC OS、Nginx；
+    </p>
+    <p><strong>开发工具 </strong>：webstorm、sublime、aptana、sourcetree；
+    </p>
+    <p><strong> 框架使用 </strong>：backbone、bootstrap、echarts；
+    </p>
+    <p><strong> 开发语言 </strong>：JavaScript、coffeescript、PHP、html、css；
+    </p>
+    <p><strong> 日常工作 </strong>：封装框架，接口、模型定义，业务逻辑实现，数据整理订阅；
+    </p>
+    <p>
+        <br>
+    </p>
+    <h3>javascript工程师 at 易视腾</h3>
+    <hr>
+    <p>2012 年 7 月 – 2013 年 9 月 (1 年 3 个月)中国 北京市区 北京易视腾科技有限公司 | 研发部 | JS高级工程师/TeamLead 计算机硬件及设备 | 合资 | 规模:100-499人
+    </p>
+    <h5>工作内容：</h5>
+    <ul>
+        <li>负责终端JavaScript编码工作（框架开发：接口、模型、控制层业务逻辑）； </li>
+        <li>负责不同电视盒子终端（三星SmartTV、央视CNTV、三零、Ccbox）的代码移植整合；</li>
+        <li>协调团队工作；</li>
+    </ul>
+    <h5>个人完成项目：</h5>
+    <ul>
+        <li>
+            <p>南京有线：南京有线电视盒子的定制模块（品牌专区），此项目前段JS框架为纯JavaScript脚本语言编写。此框架整体设计流程包括：接口、模型的定义，控制层业务逻辑，视图展现；遵循传统MVC框架设计模式；</p>
+        </li>
+        <li>
+            <p>通联支付：此项目前端JS代码功能实现部分包含model、contrl、interface等模块；</p>
+        </li>
+    </ul>
+    <h5>团队项目经验：</h5>
+    <ul>
+        <li>
+            <p>CIBN EPG2.0：此项目参与盒子整体5个专区（用户中心、视听专区、品牌专区、应用专区、系统设置）的业务逻辑的编写维护；</p>
+        </li>
+        <li>
+            <p>不同平台的版本整合：CCBox、央视CNTV（此盒子应用专区增加android应用的安装、卸载、排序、运行等功能）、三星SmartTV（此版chrome浏览器webkit核心不支持CSS3效果，其中引入jQuery库）、三零凯天；</p>
+        </li>
+    </ul>
+    <p><strong> 系统环境 </strong>：Linux、Apache、php、mysql；
+    </p>
+    <p><strong> 开发工具 </strong>：Aptana、SSH（Secure Shell）、AndroidSDK；
+    </p>
+    <p><strong> 框架使用 </strong>：Team内部框架；
+    </p>
+    <p><strong> 开发语言 </strong>：JavaScript；
+    </p>
+    <p><strong> 日常工作 </strong>：框架开发，接口、模型定义，控制业务逻辑实现，不同盒子的终端移植，BUG修复
+    </p>
+    <p>
+        <br>
+    </p>
+    <h3>PHP高级工程师 at 国富安</h3>
+    <hr>
+    <p>2009 年 2 月 – 2012 年 7 月 (3 年 6 个月)中国 北京市区 北京国富安电子商务安全认证有限公司 | 研发部 | PHP工程师 计算机硬件及设备 | 国企 | 规模:100-499人
+    </p>
+    <h5>工作内容：</h5>
+    <ul>
+        <li>负责写项目WebUI开发文档、并根据需求与开发文档设计WebUI效果图；</li>
+        <li>负责选定及调整WebUI的框架，用过的js框架有：Extjs、jQuery.LigerUI；</li>
+        <li>负责PHP代码编写工作；</li>
+        <li>写相关项目Web部分软件说明文档；</li>
+        <li>完成相关技术调研、攻坚等；.</li>
+    </ul>
+    <h5>项目经验：</h5>
+    <ul>
+        <li>
+            <p>VPN iPass3000：WebUI 参与编码工作（采用socket数据通讯方式）；</p>
+        </li>
+        <li>
+            <p>LoadPass负载均衡：客户端的编码及业务逻辑实现（PHP脚本）工作（socket通讯方式，独立完成项目） ；
+            </p>
+        </li>
+        <li>vPass虚拟化云平台接入：参与管理端WebUI开发（php+mysql+socket）、客户端WebUI开发（php+mysql）；</li>
+    </ul>
+    <p><strong> 系统环境 </strong>：Linux、Apache、Nginx、php、mysql；
+    </p>
+    <p><strong> 开发工具 </strong>：EclipsePHP Studio、Dreamweaver CS3、SSH（Secure Shell）、Fireworks CS4；
+    </p>
+    <p><strong> 框架使用 </strong>：ThinkPHP、Smarty、Ext js、jQuery.LigerUI、jpGraph；
+    </p>
+    <p><strong> 开发语言 </strong>：PHP、JavaScript/jQuery；
+    </p>
+    <p><strong> 日常工作 </strong>：完成开发文档、PHP编码及业务逻辑、写软件说明文档（带项目）、出WebUI效果图、相关技术调研、攻坚等；
+    </p>
+    <h3>End</h3>
+    </p>
+</body>
+
+</html>
