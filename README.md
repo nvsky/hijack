@@ -7,7 +7,7 @@ duke resume
 
 **性别**：男
 
-**学校专业**：**西安欧亚学院** 信息工程学院（软件专业）2006 – 2009
+**学校专业**：**西安欧亚学院**信息工程学院（软件专业）2006 – 2009
 
 **微信**：18701471731
 
@@ -46,8 +46,8 @@ B2B | 规模:200+（人）
 
 #### 项目构建:
 
-+ **移动端架构**:
-+ + **架构A**：`node v6.1.0 (npm v3.8.6)  webpack ＋ amazeUI`
++**移动端架构**:
++ +**架构A**：`node v6.1.0 (npm v3.8.6)  webpack ＋ amazeUI`
 
 ```javascript
 
@@ -65,7 +65,7 @@ B2B | 规模:200+（人）
 
 ''
 ```
-- + **架构B**：`node v0.12.2 (npm v2.7.4) gulp v3.9.0  gulp + amazeUI`
+- +**架构B**：`node v0.12.2 (npm v2.7.4) gulp v3.9.0  gulp + amazeUI`
 
 ```javascript
 
@@ -82,8 +82,8 @@ B2B | 规模:200+（人）
 ''
 ```
 
-- **PC端架构**：
-- + **架构A**：`node v0.12.2 (npm v2.7.4) gulp v3.9.0  gulp + angularjs ＋ material-design template ＋ webpack`
+-**PC端架构**：
+- +**架构A**：`node v0.12.2 (npm v2.7.4) gulp v3.9.0  gulp + angularjs ＋ material-design template ＋ webpack`
 
 ```javascript
 
@@ -111,13 +111,13 @@ B2B | 规模:200+（人）
 ```
 
 
-** 系统环境 **：MAC OS；
+**系统环境**：MAC OS；
 
-** 开发工具 **：sublime；
+**开发工具**：sublime；
 
-** 框架及组件 **：angular、react、redux、amazeui、bootstrap、ant.design、babel等；
+**框架及组件**：angular、react、redux、amazeui、bootstrap、ant.design、babel等；
 
-** 开发语言**：JavaScript、es6、html、css；
+**开发语言**：JavaScript、es6、html、css；
 
 <br/>
 ###资深前端 at fuyoukache.com
@@ -168,13 +168,13 @@ fuyoukache | 研发部 | 资深前端、Tech Lead
 - 一起维护fuyoukache.com、微信经纪人web app；
 
 
-** 系统环境 **：Ubuntu、MAC OS、Nginx；
+**系统环境**：Ubuntu、MAC OS、Nginx；
 
-** 开发工具 **：sublime、webstorm、sourcetree；
+**开发工具**：sublime、webstorm、sourcetree；
 
-** 框架使用 **：amazui、bootstrap等；
+**框架使用**：amazui、bootstrap等；
 
-**开发语言 **：JavaScript、html、css；
+**开发语言**：JavaScript、html、css；
 
 <br/>
 ### JavaScript Developer And Web TL at kaikeba
@@ -200,15 +200,15 @@ kaikeba | 研发部 | 数据平台高级工程师（前端架构、数据可视�
 * Jupiter管理系统：此项目参与部分模块（用户权限、用户角色、场景配置、日志、模型管理等模块）的业务逻辑的编写及维护，此框架中用到的tree、grid、ComboBox均适用ligerui插件；
 
 
-** 系统环境 **：Ubuntu、MAC OS、Nginx；
+**系统环境**：Ubuntu、MAC OS、Nginx；
 
-**开发工具 **：webstorm、sublime、aptana、sourcetree；
+**开发工具**：webstorm、sublime、aptana、sourcetree；
 
-** 框架使用 **：backbone、bootstrap、echarts；
+**框架使用**：backbone、bootstrap、echarts；
 
-** 开发语言 **：JavaScript、coffeescript、PHP、html、css；
+**开发语言**：JavaScript、coffeescript、PHP、html、css；
 
-** 日常工作 **：封装框架，接口、模型定义，业务逻辑实现，数据整理订阅；
+**日常工作**：封装框架，接口、模型定义，业务逻辑实现，数据整理订阅；
 
 <br/>
 ### javascript工程师 at 易视腾
@@ -232,15 +232,15 @@ kaikeba | 研发部 | 数据平台高级工程师（前端架构、数据可视�
 
 * 不同平台的版本整合：CCBox、央视CNTV（此盒子应用专区增加android应用的安装、卸载、排序、运行等功能）、三星SmartTV（此版chrome浏览器webkit核心不支持CSS3效果，其中引入jQuery库）、三零凯天；
 
-** 系统环境 **：Linux、Apache、php、mysql；
+**系统环境**：Linux、Apache、php、mysql；
 
-** 开发工具 **：Aptana、SSH（Secure Shell）、AndroidSDK；
+**开发工具**：Aptana、SSH（Secure Shell）、AndroidSDK；
 
-** 框架使用 **：Team内部框架；
+**框架使用**：Team内部框架；
 
-** 开发语言 **：JavaScript；
+**开发语言**：JavaScript；
 
-** 日常工作 **：框架开发，接口、模型定义，控制业务逻辑实现，不同盒子的终端移植，BUG修复
+**日常工作**：框架开发，接口、模型定义，控制业务逻辑实现，不同盒子的终端移植，BUG修复
 
 <br/>
 ### PHP高级工程师 at 国富安
@@ -264,14 +264,14 @@ kaikeba | 研发部 | 数据平台高级工程师（前端架构、数据可视�
 * vPass虚拟化云平台接入：参与管理端WebUI开发（php+mysql+socket）、客户端WebUI开发（php+mysql）；
 
 
-** 系统环境 **：Linux、Apache、Nginx、php、mysql；
+**系统环境**：Linux、Apache、Nginx、php、mysql；
 
-** 开发工具 **：EclipsePHP Studio、Dreamweaver CS3、SSH（Secure Shell）、Fireworks CS4；
+**开发工具**：EclipsePHP Studio、Dreamweaver CS3、SSH（Secure Shell）、Fireworks CS4；
 
-** 框架使用 **：ThinkPHP、Smarty、Ext js、jQuery.LigerUI、jpGraph；
+**框架使用**：ThinkPHP、Smarty、Ext js、jQuery.LigerUI、jpGraph；
 
-** 开发语言 **：PHP、JavaScript/jQuery；
+**开发语言**：PHP、JavaScript/jQuery；
 
-** 日常工作 **：完成开发文档、PHP编码及业务逻辑、写软件说明文档（带项目）、出WebUI效果图、相关技术调研、攻坚等；
+**日常工作**：完成开发文档、PHP编码及业务逻辑、写软件说明文档（带项目）、出WebUI效果图、相关技术调研、攻坚等；
 
 ### End
