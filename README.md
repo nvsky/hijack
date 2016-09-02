@@ -3,13 +3,13 @@ duke resume
 
 ## 个人信息
 
-**姓名**：曹德权
+**姓名**：duke
 
 **性别**：男
 
-**学校专业**：**西安欧亚学院**信息工程学院（软件专业）2006 – 2009
+**学校专业**：**西安欧亚学院**信息工程学院（软件数据）2006 – 2009
 
-**微信**：![](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0b7/0b3/262134c.jpg)
+**微信**：![](https://media.licdn.com/mpr/mpr/shrinknp_120_120/AAEAAQAAAAAAAAfbAAAAJDQ4NGU2YjFmLThlZTItNGQzMC1iOWE5LTZkMjkwNTM1NzNjNw.jpg)
 
 ## 技术能力
 
@@ -32,7 +32,7 @@ duke resume
 
 ### Front end director at gooagoo
 ---
-2015 年 12 月 – 至今 前端技术部
+2015 年 12 月 – 至今 (8 个月)前端技术部
 gooagoo | 前端技术部
 B2B | 规模:200+（人） 
 
