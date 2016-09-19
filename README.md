@@ -32,7 +32,7 @@ duke resume
 
 ### Front end director at gooagoo
 ---
-2015 年 12 月 – 至今 (8 个月)前端技术部
+2015 年 12 月 – 至今 前端技术部
 gooagoo | 前端技术部
 B2B | 规模:200+（人） 
 
