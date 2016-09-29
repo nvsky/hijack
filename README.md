@@ -38,11 +38,13 @@ B2B | 规模:200+（人）
 
 #### 工作内容:
 
-* 规划team季度OKR；
-* 项目对接及推进、资源及工作协调分配；
-* 使用gulp、webpack工具集做dev及production工程化；
-* 使用angularjs、react做技术选型及项目构建；
-* 推进测试及发布流程；
+* 团队：组建前端部，包括UI、架构组、业务组，培养team成员从初、中级到中、高级，高于市场平均技术水平
+* 技术：框架选型、构建，引入react、angularjs框架，引入AmazeUI、AntD、material-design bootstrap组件库，拓展PC、h5移动端4套构建方案
+* 业务：提供业务研发部、数据部、基础平台部前端开发支持，以API形式前后分离解耦原有及新项目，提高应用性能、效率、稳定、健壮
+* 协作：推进工程部署Jenkins、敏捷协作开发teambition、代码管理gitlab、文档协作GoogleDoc、埋点统计Piwik等高效服务使用，完成team由svn切换至gitlab代码管理并指导team对git使用
+* 规划：做部门业务项目、技术拓展、团队建设等季度OKR，拆分成员OKR
+* 项目对接及推进、资源及工作协调分配
+* 推进测试及发布流程
 
 #### 项目构建:
 
