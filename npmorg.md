@@ -25,7 +25,10 @@ keywords: npm test demo
 author: navyxie
 license: (ISC) 
 ```
+- 成功之后，npm会把认证信息存储在~/.npmrc中，并且可以通过以下命令查看npm当前使用的用户：
+
 ```
+$ npm whoami 
 lib目录下存放业务逻辑文件
 test目录下存放单元测试用例
 .npmignore记录哪些文件不需要被发布到npmjs.org
@@ -34,6 +37,26 @@ index.js是入口文件
 makefile方便我们用make test进行测试
 README.md是此module的描述和使用方法
 ```
+### 持续集成
+
+- 开源项目多如牛毛，从中找出靠谱的项目需要花费一定的精力，开发者都会对持续更新，并且经过测试（很多公司采用）的项目更加的信赖，对于刚上线并且用户数量很少的项目开发者都会有个疑虑：这项目靠谱吗？所以你需要对自己的项目打上一个标识：老子的项目靠谱。如何做？持续集成。
+
+- 目前Github已经整合了持续集成服务travis，我们只需要在项目中添加.travis.yml文件，在下一次push之后，travis就会定时执行npm test来测试你的项目，并且会在测试失败的时候通知到你，你也可以把项目当前的状态显示在README.md中，让人一目了然，比如：
+
+[![Build Status](https://travis-ci.org/nvsky/mobile-login-react-module.svg?branch=master)](https://travis-ci.org/bang88/typescript-react-redux-starter)
+
+.travis.yml是一个YAML文件，关于node.js相关的配置见这里，例子如下：
+```
+language: node_js
+node_js:
+   - "0.10"
+   - "0.8"
+   - "0.6"   
+services:
+    - mongodb
+```
+这个例子的是让travis在node.js的0.6.x，0.8.x，0.10.x三个版本下对项目进行测试，并且需要mongodb的服务。
+
 - 编写代码
 ```
 index.js(module.exports = require('./lib/test');)
@@ -43,6 +66,21 @@ test/
 
 ## 3、发布npm包
 - 1.npm publish . (基于当前目录进行发布)
+
+```
+$ npm publish --tag 0.1.0
+npm http PUT https://registry.npmjs.org/easy_mongo
+npm http 201 https://registry.npmjs.org/easy_mongo
++ easy_mongo[@0](/user/0).1.0
+
+npm社区版本号规则采用的是semver(语义化版本)，主要规则如下：
+
+版本格式：主版号.次版号.修订号，版号递增规则如下：
+    主版号：当你做了不相容的 API 修改，
+    次版号：当你做了向下相容的功能性新增，
+    修订号：当你做了向下相容的问题修正。
+    先行版号及版本编译资讯可以加到「主版号.次版号.修订号」的后面，作为延伸。
+```
 
 ```
 npm info it worked if it ends with ok
