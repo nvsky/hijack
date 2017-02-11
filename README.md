@@ -3,7 +3,7 @@ duke resume
 
 ## 个人信息
 
-**姓名**：duke
+**姓名**：曹德权
 
 **性别**：男
 
@@ -13,7 +13,7 @@ duke resume
 
 ## 技术能力
 
-> 带领团队协调推进工作，保证质量高效完成至极用户体验产品
+> 制定协作规范、协调团队推进工作，保质高效完成各产品
 
 > 有较强的分析问题与解决问题的能力，勇于接受新的挑战、有良好的代码习惯，结构清晰，命名规范，逻辑性强，代码冗余率低、耦合低
 
@@ -22,8 +22,8 @@ duke resume
 * 8年B/S开发经验，具有Team管理经验
 * 擅长：前端架构、爬虫、监控、数据可视化
 * 精通：javascript、php、熟悉coffeescrip
-* 掌握：AngularJS框架、熟悉backbone、react等框架，使用npm、gulp、webpack等构建工具集
-* 熟悉：echarts、d3、bootstrap、phantom、casper、amazeUI、ANT DESIGN等相关组件库
+* 掌握：Angular、React，熟悉backbone等框架，使用npm、gulp、webpack等构建工具集
+* 熟悉：echarts、d3、bootstrap、phantom、casper、amazeUI、AntD等相关组件库
 * 掌握：项目管理和协同工具SVN、Git
 * 使用api以JSON形式进行数据交互，完成相关业务逻辑编码
 
@@ -32,19 +32,21 @@ duke resume
 
 ### Front end director at gooagoo
 ---
-2015 年 12 月 – 至今 前端技术部
-gooagoo | 前端技术部
-B2B | 规模:200+（人） 
+2015 年 12 月 – 至今 前端部
+gooagoo | 前端部
+B2B | 规模:260+（人） 
 
 #### 工作内容:
 
-* 团队：组建前端部，包括UI、架构组、业务组，培养team成员从初、中级到中、高级，高于市场平均技术水平
-* 技术：框架选型、构建，引入react、angularjs框架，引入AmazeUI、AntD、material-design bootstrap组件库，拓展PC、h5移动端4套构建方案
+
+* 团队：组建前端部，包括UI组、架构组、业务组，培养team成员从初、中级到中、高级，不断提升团队整体技术能力
+* 技术：框架选型、构建，引入React、Angular框架，引入AmazeUI、AntD、material-design bootstrap组件库，拓展PC、h5移动端5套构建方案
 * 业务：提供业务研发部、数据部、基础平台部前端开发支持，以API形式前后分离解耦原有及新项目，提高应用性能、效率、稳定、健壮
-* 协作：推进工程部署Jenkins、敏捷协作开发teambition、代码管理gitlab、文档协作GoogleDoc、埋点统计Piwik等高效服务使用，完成team由svn切换至gitlab代码管理并指导team对git使用
-* 规划：做部门业务项目、技术拓展、团队建设等季度OKR，拆分成员OKR
-* 项目对接及推进、资源及工作协调分配
+* 协作：规范个团队间配合协作规范，推进工程部署Jenkins、敏捷协作开发teambition、代码管理gitlab、文档协作GoogleDoc、埋点统计Piwik等高效服务使用，完成team由svn切换至gitlab代码管理并指导team对git使用
+* 规划：技术拓展、团队建设、季度OKR、拆分成员OKR
+* 项目对接及推进、资源及工作协调分配、组件封装发布https://github.com/nvsky?tab=repositories
 * 推进测试及发布流程
+
 
 #### 项目构建:
 
@@ -83,6 +85,10 @@ B2B | 规模:200+（人）
 
 ''
 ```
+
++ +**架构C**：`node v6.1.0 (npm v3.8.6)  webpack ＋ React + react-router`
+
++ +**架构D**：`node v6.1.0 (npm v3.8.6) ant-tool + React + react-router`
 
 -**PC端架构**：
 - +**架构A**：`node v0.12.2 (npm v2.7.4) gulp v3.9.0  gulp + angularjs ＋ material-design template ＋ webpack`
