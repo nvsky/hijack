@@ -39,10 +39,10 @@ B2B | 规模:260+（人）
 #### 工作内容:
 
 
-* 团队：组建前端部，包括UI组、架构组、业务组，培养team成员从初、中级到中、高级，不断提升团队整体技术能力
-* 技术：框架选型、构建，引入React、Angular框架，引入AmazeUI、AntD、material-design bootstrap组件库，拓展PC、h5移动端5套构建方案
+* 团队：组建前端部，包括UI组、架构组、业务组，技术分享培训，不断提升团队整体技术能力
+* 技术：框架选型、构建，引入React、Angular框架，引入AmazeUI、AntD、Material-design Bootstrap组件库，拓展PC、h5移动端6套构建方案
 * 业务：提供业务研发部、数据部、基础平台部前端开发支持，以API形式前后分离解耦原有及新项目，提高应用性能、效率、稳定、健壮
-* 协作：规范个团队间配合协作规范，推进工程部署Jenkins、敏捷协作开发teambition、代码管理gitlab、文档协作GoogleDoc、埋点统计Piwik等高效服务使用，完成team由svn切换至gitlab代码管理并指导team对git使用
+* 协作：规范个团队间配合协作规范，推进工程部署Jenkins、敏捷协作开发teambition、代码管理gitlab、文档协作GoogleDoc及RAP使用、埋点统计Piwik等服务，完成team由svn切换至gitlab代码管理
 * 规划：技术拓展、团队建设、季度OKR、拆分成员OKR
 * 项目对接及推进、资源及工作协调分配、组件封装发布https://github.com/nvsky?tab=repositories
 * 推进测试及发布流程
@@ -51,79 +51,32 @@ B2B | 规模:260+（人）
 #### 项目构建:
 
 +**移动端架构**:
-+ +**架构A**：`node v6.1.0 (npm v3.8.6)  webpack ＋ amazeUI`
 
-```javascript
+- +**架构A**：`Gulp + AmazeUI + Director.js`
 
-    "构建"
-    //browser-sync、del-cli、director、jquery、less、less-loader、postcss-loader、style-loader、css-loader、 autoprefixer、file-loader、image-webpack-loader、html-webpack-loader、extract-text-webpack-plugin、webpack、webpack-dev-middleware、webpack-hot-middleware、copy-webpack-plugin等
-    
-    "组件" amazeui v2.7
-    
-    "服务" npm run start 
-    //{scripts : { start : browserSync.create().init({server:{baseDir:[], middleware:[]}}) }};
-    
-    "生产" npm run build
-    //{scripts : { build : webpack --config webpack.config.js }};
-    //webpack.config.js : module.exports = {entry : [], output : {}, module : {loaders : [ test : /rule/, loaders : [], include : [] ]}, plugins : [] }
++ +**架构B**：`Webpack ＋ React + React-router + Redux`
 
-''
-```
-- +**架构B**：`node v0.12.2 (npm v2.7.4) gulp v3.9.0  gulp + amazeUI`
-
-```javascript
-
-    "构建"
-    //browser-sync、run-sequence、del、director、jquery、gulp、gulp-load-plugins、gulp-less、gulp-csso、 gulp-autoprefixer、gulp-imagemin、gulp-size、gulp-htmlmin、gulp-uglify、gulp-rename、gulp-replace、watchify等
-    
-    "组件" amazeui v2.5
-    
-    "服务、生产" gulp serve    
-    task : gulp.task(task, function(){return gulp.src([]).pipe()});
-    runTask : gulp.task(runTask, function(){ runSequence(‘clean’, [taskNams], ‘watch’) };
-    runServe : gulp.task('serve', ['runTask'], function() { browserSync({ server : ‘dist’ }); gulp.watch(['dist/**/*'], browserSync.reload); });
-
-''
-```
-
-+ +**架构C**：`node v6.1.0 (npm v3.8.6)  webpack ＋ React + react-router`
-
-+ +**架构D**：`node v6.1.0 (npm v3.8.6) ant-tool + React + react-router`
++ +**架构C**：`Ant-tool + React + React-router + Roof`
 
 -**PC端架构**：
-- +**架构A**：`node v0.12.2 (npm v2.7.4) gulp v3.9.0  gulp + angularjs ＋ material-design template ＋ webpack`
 
-```javascript
+- +**架构A**：`Gulp + Angularjs ＋ Material Design ＋ Webpack`
 
-    "构建"
-    //browser-sync、run-sequence、del、jquery、gulp、gulp-load-plugins、watchify等（起服务）
-    //css-loader、less、less-loader、style-loader、file-loader、url-loader、extract-text-webpack-plugin、webpack、webpack-dev-middleware、webpack-hot-middleware、copy-webpack-plugin等（打生产包）
-    
-    "组件" angularjs ＋ material-design template
-    
-    "服务" gulp serve
-    gulp.task('serve', ['taskNames'], () => {
-        browserSync({
-            notify: false,
-            server: ['angularjs'],
-            port: 3000
-        });
-        gulp.watch(['angularjs/*'], browserSync.reload);
-    });
-    
-    "生产" npm run build
-    //{scripts : { build : webpack --config webpack.config.js }};
-    //webpack.config.js : module.exports = {entry : [], output : {}, module : {loaders : [ test : /rule/, loaders : [], include : [] ]}, plugins : [] }
+- +**架构B**：`React + Redux + Material Design + Webpack`
 
-''
-```
+
++**架构储备（6套）**:
+
+- +**PC**：`Gulp+Angular+Material Design、Gulp+Prototype+UI、React+Redux+Material Design+WebPack（共3种）`
+
+- +**Mobile**：`Gulp+amazeUI+Prototype+Director、React+Roof+AntD+AntTool、React+Redux+AntD+WebPack（共3种）`
 
 
 **系统环境**：MAC OS；
 
 **开发工具**：sublime；
 
-**框架及组件**：angular、react、redux、amazeui、bootstrap、ant.design、babel等；
+**框架及组件**：Angular、React、Redux、Amazeui、Bootstrap、Ant.design、Material Design等；
 
 **开发语言**：JavaScript、es6、html、css；
 
