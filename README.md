@@ -23,7 +23,7 @@ duke resume
 * 擅长：前端架构、爬虫、监控、数据可视化
 * 精通：javascript、php、熟悉coffeescrip
 * 掌握：Angular、React，熟悉backbone等框架，使用npm、gulp、webpack等构建工具集
-* 熟悉：echarts、d3、bootstrap、phantom、casper、amazeUI、AntD等相关组件库
+* 熟悉：Echarts、D3、Bootstrap、PhantomJS、Casper、AmazeUI、AntD等相关组件库
 * 掌握：项目管理和协同工具SVN、Git
 * 使用api以JSON形式进行数据交互，完成相关业务逻辑编码
 
