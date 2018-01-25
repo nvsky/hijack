@@ -50,21 +50,6 @@ B2B | 规模:260+（人）
 
 #### 项目构建:
 
-+**移动端架构**:
-
-- +**架构A**：`Gulp + AmazeUI + Director.js`
-
-+ +**架构B**：`Webpack ＋ React + React-router + Redux`
-
-+ +**架构C**：`Ant-tool + React + React-router + Roof`
-
--**PC端架构**：
-
-- +**架构A**：`Gulp + Angularjs ＋ Material Design ＋ Webpack`
-
-- +**架构B**：`React + Redux + Material Design + Webpack`
-
-
 +**架构储备（6套）**:
 
 - +**PC**：`Gulp+Angular+Material Design、Gulp+Prototype+UI、React+Redux+Material Design+WebPack（共3种）`
