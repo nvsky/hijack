@@ -19,7 +19,7 @@ duke resume
 
 > 保证系统稳定、高效、健壮
 
-* 8年B/S开发经验，具有Team管理经验
+* 9年B/S开发经验，具有Team管理经验
 * 擅长：前端架构、爬虫、监控、数据可视化
 * 精通：javascript、php、熟悉coffeescrip
 * 掌握：Angular、React，熟悉backbone等框架，使用npm、gulp、webpack等构建工具集
